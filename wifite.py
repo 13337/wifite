@@ -387,7 +387,7 @@ class RunConfiguration:
                     print GR + ' [+]' + W + ' channel set to %s' % (G + str(self.TARGET_CHANNEL) + W)
             if options.mac_anon:
                 print GR + ' [+]' + W + ' mac address anonymizing ' + G + 'enabled' + W
-                print O + '      not: only works if device is not already in monitor mode!' + W
+                print O + '      note: only works if device is not already in monitor mode!' + W
                 self.DO_NOT_CHANGE_MAC = False
             if options.interface:
                 self.WIRELESS_IFACE = options.interface
